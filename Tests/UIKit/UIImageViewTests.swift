@@ -1,6 +1,6 @@
 //
 //  UIImageViewTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Andy Jacobs on 21/10/15.
 //  Copyright © 2015 Neil Pankey. All rights reserved.
@@ -26,7 +26,7 @@ class UIImageViewTests: XCTestCase {
         
         let image = UIImage()
         
-        imageView.rex_image <~ SignalProducer(value: image)
+        imageView.Roxy_image <~ SignalProducer(value: image)
         XCTAssert(_imageView?.image == image)
     }
     
@@ -36,7 +36,7 @@ class UIImageViewTests: XCTestCase {
         
         let image = UIImage()
         
-        imageView.rex_highlightedImage <~ SignalProducer(value: image)
+        imageView.Roxy_highlightedImage <~ SignalProducer(value: image)
         XCTAssert(_imageView?.highlightedImage == image)
     }
     
@@ -47,7 +47,7 @@ class UIImageViewTests: XCTestCase {
         let secondChange = UIImage()
         
         let (pipeSignal, observer) = Signal<UIImage?, NoError>.pipe()
-        imageView.rex_image <~ SignalProducer(signal: pipeSignal)
+        imageView.Roxy_image <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(firstChange)
         XCTAssertEqual(imageView.image, firstChange)
@@ -62,7 +62,7 @@ class UIImageViewTests: XCTestCase {
         let secondChange = UIImage()
         
         let (pipeSignal, observer) = Signal<UIImage?, NoError>.pipe()
-        imageView.rex_highlightedImage <~ SignalProducer(signal: pipeSignal)
+        imageView.Roxy_highlightedImage <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(firstChange)
         XCTAssertEqual(imageView.highlightedImage, firstChange)

@@ -1,12 +1,12 @@
 //
 //  NSObjectTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Neil Pankey on 5/28/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
 //
 
-import Rex
+import Roxy
 import ReactiveCocoa
 import XCTest
 
@@ -16,7 +16,7 @@ final class NSObjectTests: XCTestCase {
         let object = Object()
         var value: String = ""
 
-        object.rex_producerForKeyPath("string").start(Observer(next: { value = $0 }))
+        object.Roxy_producerForKeyPath("string").start(Observer(next: { value = $0 }))
         XCTAssertEqual(value, "foo")
 
         object.string = "bar"

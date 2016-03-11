@@ -1,6 +1,6 @@
 //
 //  UILabelTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Neil Pankey on 8/20/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
@@ -24,7 +24,7 @@ class UILabelTests: XCTestCase {
         let label = UILabel(frame: CGRectZero)
         _label = label
 
-        label.rex_text <~ SignalProducer(value: "Test")
+        label.Roxy_text <~ SignalProducer(value: "Test")
         XCTAssert(_label?.text == "Test")
     }
     
@@ -36,7 +36,7 @@ class UILabelTests: XCTestCase {
         label.text = ""
         
         let (pipeSignal, observer) = Signal<String, NoError>.pipe()
-        label.rex_text <~ SignalProducer(signal: pipeSignal)
+        label.Roxy_text <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(firstChange)
         XCTAssertEqual(label.text, firstChange)
@@ -52,7 +52,7 @@ class UILabelTests: XCTestCase {
 
         let (pipeSignal, observer) = Signal<UIColor, NoError>.pipe()
         label.textColor = UIColor.blackColor()
-        label.rex_textColor <~ SignalProducer(signal: pipeSignal)
+        label.Roxy_textColor <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(firstChange)
         XCTAssertEqual(label.textColor, firstChange)

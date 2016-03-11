@@ -1,6 +1,6 @@
 //
 //  NSTextField.swift
-//  Rex
+//  Roxy
 //
 //  Created by Yury Lapitsky on 7/8/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.

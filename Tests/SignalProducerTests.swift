@@ -1,12 +1,12 @@
 //
 //  SignalProducerTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Neil Pankey on 5/9/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
 //
 
-import Rex
+import Roxy
 import ReactiveCocoa
 import XCTest
 import enum Result.NoError

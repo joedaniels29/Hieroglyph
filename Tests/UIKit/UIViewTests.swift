@@ -1,6 +1,6 @@
 //
 //  UIViewTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Andy Jacobs on 21/10/15.
 //  Copyright © 2015 Neil Pankey. All rights reserved.
@@ -24,7 +24,7 @@ class UIViewTests: XCTestCase {
         let view = UIView(frame: CGRectZero)
         _view = view
         
-        view.rex_alpha <~ SignalProducer(value: 0.5)
+        view.Roxy_alpha <~ SignalProducer(value: 0.5)
         XCTAssertEqualWithAccuracy(_view!.alpha, 0.5, accuracy: 0.01)
     }
     
@@ -32,7 +32,7 @@ class UIViewTests: XCTestCase {
         let view = UIView(frame: CGRectZero)
         _view = view
         
-        view.rex_hidden <~ SignalProducer(value: true)
+        view.Roxy_hidden <~ SignalProducer(value: true)
         XCTAssert(_view?.hidden == true)
     }
     
@@ -41,7 +41,7 @@ class UIViewTests: XCTestCase {
         view.hidden = true
         
         let (pipeSignal, observer) = Signal<Bool, NoError>.pipe()
-        view.rex_hidden <~ SignalProducer(signal: pipeSignal)
+        view.Roxy_hidden <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(true)
         XCTAssertTrue(view.hidden)
@@ -57,7 +57,7 @@ class UIViewTests: XCTestCase {
         let secondChange = CGFloat(0.7)
         
         let (pipeSignal, observer) = Signal<CGFloat, NoError>.pipe()
-        view.rex_alpha <~ SignalProducer(signal: pipeSignal)
+        view.Roxy_alpha <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(firstChange)
         XCTAssertEqualWithAccuracy(view.alpha, firstChange, accuracy: 0.01)

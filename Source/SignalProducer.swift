@@ -1,6 +1,6 @@
 //
 //  SignalProducer.swift
-//  Rex
+//  Roxy
 //
 //  Created by Neil Pankey on 5/9/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
@@ -19,7 +19,7 @@ extension SignalProducerType {
             var groups: [Key: Signal<Value, Error>.Observer] = [:]
 
             let lock = NSRecursiveLock()
-            lock.name = "me.neilpa.rex.groupBy"
+            lock.name = "me.neilpa.Roxy.groupBy"
 
             self.start(Observer(next: { value in
                 let key = grouping(value)

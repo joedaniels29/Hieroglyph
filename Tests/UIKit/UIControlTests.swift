@@ -1,6 +1,6 @@
 //
 //  UIControlTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Andy Jacobs on 21/08/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
@@ -24,7 +24,7 @@ class UIControlTests: XCTestCase {
         let control = UIControl(frame: CGRectZero)
         _control = control
         
-        control.rex_enabled <~ SignalProducer(value: false)
+        control.Roxy_enabled <~ SignalProducer(value: false)
         XCTAssert(_control?.enabled == false)
     }
     
@@ -32,7 +32,7 @@ class UIControlTests: XCTestCase {
         let control = UIControl(frame: CGRectZero)
         _control = control
         
-        control.rex_selected <~ SignalProducer(value: true)
+        control.Roxy_selected <~ SignalProducer(value: true)
         XCTAssert(_control?.selected == true)
     }
     
@@ -40,7 +40,7 @@ class UIControlTests: XCTestCase {
         let control = UIControl(frame: CGRectZero)
         _control = control
         
-        control.rex_highlighted <~ SignalProducer(value: true)
+        control.Roxy_highlighted <~ SignalProducer(value: true)
         XCTAssert(_control?.highlighted == true)
     }
     
@@ -49,7 +49,7 @@ class UIControlTests: XCTestCase {
         control.enabled = false
         
         let (pipeSignal, observer) = Signal<Bool, NoError>.pipe()
-        control.rex_enabled <~ SignalProducer(signal: pipeSignal)
+        control.Roxy_enabled <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(true)
         XCTAssertTrue(control.enabled)
@@ -62,7 +62,7 @@ class UIControlTests: XCTestCase {
         control.selected = false
         
         let (pipeSignal, observer) = Signal<Bool, NoError>.pipe()
-        control.rex_selected <~ SignalProducer(signal: pipeSignal)
+        control.Roxy_selected <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(true)
         XCTAssertTrue(control.selected)
@@ -75,7 +75,7 @@ class UIControlTests: XCTestCase {
         control.highlighted = false
         
         let (pipeSignal, observer) = Signal<Bool, NoError>.pipe()
-        control.rex_highlighted <~ SignalProducer(signal: pipeSignal)
+        control.Roxy_highlighted <~ SignalProducer(signal: pipeSignal)
         
         observer.sendNext(true)
         XCTAssertTrue(control.highlighted)
@@ -90,8 +90,8 @@ class UIControlTests: XCTestCase {
         
         let (pipeSignalSelected, observerSelected) = Signal<Bool, NoError>.pipe()
         let (pipeSignalEnabled, observerEnabled) = Signal<Bool, NoError>.pipe()
-        control.rex_selected <~ SignalProducer(signal: pipeSignalSelected)
-        control.rex_enabled <~ SignalProducer(signal: pipeSignalEnabled)
+        control.Roxy_selected <~ SignalProducer(signal: pipeSignalSelected)
+        control.Roxy_enabled <~ SignalProducer(signal: pipeSignalEnabled)
         
         observerSelected.sendNext(true)
         observerEnabled.sendNext(true)

@@ -1,12 +1,12 @@
 //
 //  PropertyTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Neil Pankey on 10/17/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
 //
 
-@testable import Rex
+@testable import Roxy
 import ReactiveCocoa
 import XCTest
 import enum Result.NoError

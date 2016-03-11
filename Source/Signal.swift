@@ -1,6 +1,6 @@
 //
 //  Signal.swift
-//  Rex
+//  Roxy
 //
 //  Created by Neil Pankey on 5/9/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.

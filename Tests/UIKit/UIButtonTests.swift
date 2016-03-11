@@ -1,6 +1,6 @@
 //
 //  UIButtonTests.swift
-//  Rex
+//  Roxy
 //
 //  Created by Andy Jacobs on 21/08/15.
 //  Copyright (c) 2015 Neil Pankey. All rights reserved.
@@ -35,7 +35,7 @@ class UIButtonTests: XCTestCase {
         let button = UIButton(frame: CGRectZero)
         _button = button
         
-        button.rex_enabled <~ SignalProducer(value: false)
+        button.Roxy_enabled <~ SignalProducer(value: false)
         XCTAssert(_button?.enabled == false)
     }
 
@@ -46,14 +46,14 @@ class UIButtonTests: XCTestCase {
         let action = Action<(),(),NoError> {
             SignalProducer(value: ())
         }
-        button.rex_pressed <~ SignalProducer(value: CocoaAction(action, input: ()))
+        button.Roxy_pressed <~ SignalProducer(value: CocoaAction(action, input: ()))
     }
 
     func testTitlePropertyDoesntCreateRetainCycle() {
         let button = UIButton(frame: CGRectZero)
         _button = button
 
-        button.rex_title <~ SignalProducer(value: "button")
+        button.Roxy_title <~ SignalProducer(value: "button")
         XCTAssert(_button?.titleForState(.Normal) == "button")
     }
     
@@ -62,7 +62,7 @@ class UIButtonTests: XCTestCase {
         let secondTitle = "Second title"
         let button = UIButton(frame: CGRectZero)
         let (pipeSignal, observer) = Signal<String, NoError>.pipe()
-        button.rex_title <~ SignalProducer(signal: pipeSignal)
+        button.Roxy_title <~ SignalProducer(signal: pipeSignal)
         button.setTitle("", forState: .Selected)
         button.setTitle("", forState: .Highlighted)
         
@@ -88,7 +88,7 @@ class UIButtonTests: XCTestCase {
         }
         
         passed <~ SignalProducer(signal: action.values)
-        button.rex_pressed <~ SignalProducer(value: CocoaAction(action, input: ()))
+        button.Roxy_pressed <~ SignalProducer(value: CocoaAction(action, input: ()))
         
         button.sendActionsForControlEvents(.TouchUpInside)
         
