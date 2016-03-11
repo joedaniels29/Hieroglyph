@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "58670FCEAD17022FAE9F039FA9ADA185D5237F34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FBC5B37175CFDB5692D2FCC699E9E6C55092E281" : 0,
+    "58670FCEAD17022FAE9F039FA9ADA185D5237F34" : 0,
+    "56CBFB4DA5447E6BD53B743E6F9041DC34AA0145" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "341E8936-726D-4D7E-B23C-8D7246949E38",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FBC5B37175CFDB5692D2FCC699E9E6C55092E281" : "..\/..\/.zsh_scripts",
+    "58670FCEAD17022FAE9F039FA9ADA185D5237F34" : "Roxy\/",
+    "56CBFB4DA5447E6BD53B743E6F9041DC34AA0145" : "..\/..\/.zprezto"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Rex",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Rex.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sorin-ionescu\/prezto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "56CBFB4DA5447E6BD53B743E6F9041DC34AA0145"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/neilpa\/Rex.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58670FCEAD17022FAE9F039FA9ADA185D5237F34"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:joedaniels29\/zsh_scripts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FBC5B37175CFDB5692D2FCC699E9E6C55092E281"
+    }
+  ]
+}

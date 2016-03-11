@@ -1,4 +1,4 @@
-# Rex [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Roxy [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 Extensions for [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) that may not fit in the core framework.
 
 New development targets RAC 4/Swift 2/Xcode 7. For RAC 3 support [see the 0.5 release](https://github.com/neilpa/Rex/releases/tag/v0.5.0).

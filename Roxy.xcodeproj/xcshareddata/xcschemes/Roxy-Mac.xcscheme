@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -11,27 +11,14 @@
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "YES"
+            hideIssues = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-               BuildableName = "Rex.framework"
-               BlueprintName = "Rex-Mac"
-               ReferencedContainer = "container:Rex.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8003E981AFEC3D400D7D3C5"
-               BuildableName = "RexTests-Mac.xctest"
-               BlueprintName = "RexTests-Mac"
-               ReferencedContainer = "container:Rex.xcodeproj">
+               BuildableName = "Roxy.framework"
+               BlueprintName = "Roxy-Mac"
+               ReferencedContainer = "container:Roxy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D8003E981AFEC3D400D7D3C5"
-               BuildableName = "RexTests-Mac.xctest"
-               BlueprintName = "RexTests-Mac"
-               ReferencedContainer = "container:Rex.xcodeproj">
+               BuildableName = "Roxy.xctest"
+               BlueprintName = "RoxyTests-Mac"
+               ReferencedContainer = "container:Roxy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-            BuildableName = "Rex.framework"
-            BlueprintName = "Rex-Mac"
-            ReferencedContainer = "container:Rex.xcodeproj">
+            BuildableName = "Roxy.framework"
+            BlueprintName = "Roxy-Mac"
+            ReferencedContainer = "container:Roxy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-            BuildableName = "Rex.framework"
-            BlueprintName = "Rex-Mac"
-            ReferencedContainer = "container:Rex.xcodeproj">
+            BuildableName = "Roxy.framework"
+            BlueprintName = "Roxy-Mac"
+            ReferencedContainer = "container:Roxy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -97,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-            BuildableName = "Rex.framework"
-            BlueprintName = "Rex-Mac"
-            ReferencedContainer = "container:Rex.xcodeproj">
+            BuildableName = "Roxy.framework"
+            BlueprintName = "Roxy-Mac"
+            ReferencedContainer = "container:Roxy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

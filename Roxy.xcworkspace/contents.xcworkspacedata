@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Rex.xcodeproj">
+      location = "group:Roxy.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:README.md">
