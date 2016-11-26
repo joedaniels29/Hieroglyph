@@ -167,17 +167,17 @@
 		D849CB961C9267F6003B4CC8 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = tvOS/Result.framework; sourceTree = "<group>"; };
 		D849CB9B1C9267FE003B4CC8 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = watchOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		D849CB9C1C9267FE003B4CC8 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = watchOS/Result.framework; sourceTree = "<group>"; };
-		D86E77A91AFEE646004BF23D /* Roxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D86E77AA1AFEE646004BF23D /* Roxy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roxy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D86E77AB1AFEE646004BF23D /* Roxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D86E77AC1AFEE646004BF23D /* Roxy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roxy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86E77A91AFEE646004BF23D /* Hieroglyph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hieroglyph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86E77AA1AFEE646004BF23D /* Hieroglyph.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hieroglyph.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86E77AB1AFEE646004BF23D /* Hieroglyph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hieroglyph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86E77AC1AFEE646004BF23D /* Hieroglyph.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hieroglyph.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FFBD41B34B0FE001A89B3 /* UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
 		D86FFBD71B34B242001A89B3 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		D86FFBD91B34B3F0001A89B3 /* NachoExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NachoExt.swift; sourceTree = "<group>"; };
 		D86FFBDC1B34B691001A89B3 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
-		D8715D941C210F97005F4191 /* Roxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8715DB01C21123E005F4191 /* Roxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Roxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8715DD11C21160A005F4191 /* Roxy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Roxy.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8715D941C210F97005F4191 /* Hieroglyph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hieroglyph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8715DB01C21123E005F4191 /* Hieroglyph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hieroglyph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8715DD11C21160A005F4191 /* Hieroglyph.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hieroglyph.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A454081BD2772700C9E790 /* PropertyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTests.swift; sourceTree = "<group>"; };
 		D8F073141B861B3A0047D546 /* UILabelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
 		D8F0973A1B17F2F7002E15BA /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
@@ -331,8 +331,8 @@
 			children = (
 				D849CB8F1C9267E7003B4CC8 /* ReactiveCocoa.framework */,
 				D849CB901C9267E7003B4CC8 /* Result.framework */,
-				D86E77A91AFEE646004BF23D /* Roxy.framework */,
-				D86E77AA1AFEE646004BF23D /* Roxy.xctest */,
+				D86E77A91AFEE646004BF23D /* Hieroglyph.framework */,
+				D86E77AA1AFEE646004BF23D /* Hieroglyph.xctest */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
@@ -342,8 +342,8 @@
 			children = (
 				D849CB831C9267C0003B4CC8 /* ReactiveCocoa.framework */,
 				D849CB841C9267C0003B4CC8 /* Result.framework */,
-				D86E77AB1AFEE646004BF23D /* Roxy.framework */,
-				D86E77AC1AFEE646004BF23D /* Roxy.xctest */,
+				D86E77AB1AFEE646004BF23D /* Hieroglyph.framework */,
+				D86E77AC1AFEE646004BF23D /* Hieroglyph.xctest */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 			children = (
 				D849CB9B1C9267FE003B4CC8 /* ReactiveCocoa.framework */,
 				D849CB9C1C9267FE003B4CC8 /* Result.framework */,
-				D8715D941C210F97005F4191 /* Roxy.framework */,
+				D8715D941C210F97005F4191 /* Hieroglyph.framework */,
 			);
 			name = watchOS;
 			sourceTree = "<group>";
@@ -378,8 +378,8 @@
 			children = (
 				D849CB951C9267F6003B4CC8 /* ReactiveCocoa.framework */,
 				D849CB961C9267F6003B4CC8 /* Result.framework */,
-				D8715DB01C21123E005F4191 /* Roxy.framework */,
-				D8715DD11C21160A005F4191 /* Roxy.xctest */,
+				D8715DB01C21123E005F4191 /* Hieroglyph.framework */,
+				D8715DD11C21160A005F4191 /* Hieroglyph.xctest */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
@@ -454,9 +454,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D8003E8D1AFEC3D400D7D3C5 /* Roxy-Mac */ = {
+		D8003E8D1AFEC3D400D7D3C5 /* Hieroglyph-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8003EA41AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "Roxy-Mac" */;
+			buildConfigurationList = D8003EA41AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "Hieroglyph-Mac" */;
 			buildPhases = (
 				D8003E891AFEC3D400D7D3C5 /* Sources */,
 				D8003E8A1AFEC3D400D7D3C5 /* Frameworks */,
@@ -467,14 +467,14 @@
 			);
 			dependencies = (
 			);
-			name = "Roxy-Mac";
+			name = "Hieroglyph-Mac";
 			productName = Rex;
-			productReference = D86E77A91AFEE646004BF23D /* Roxy.framework */;
+			productReference = D86E77A91AFEE646004BF23D /* Hieroglyph.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8003E981AFEC3D400D7D3C5 /* RoxyTests-Mac */ = {
+		D8003E981AFEC3D400D7D3C5 /* HieroglyphTests-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8003EA71AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "RoxyTests-Mac" */;
+			buildConfigurationList = D8003EA71AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "HieroglyphTests-Mac" */;
 			buildPhases = (
 				D8003E951AFEC3D400D7D3C5 /* Sources */,
 				D8003E961AFEC3D400D7D3C5 /* Frameworks */,
@@ -486,14 +486,14 @@
 			dependencies = (
 				D8003E9C1AFEC3D400D7D3C5 /* PBXTargetDependency */,
 			);
-			name = "RoxyTests-Mac";
+			name = "HieroglyphTests-Mac";
 			productName = RexTests;
-			productReference = D86E77AA1AFEE646004BF23D /* Roxy.xctest */;
+			productReference = D86E77AA1AFEE646004BF23D /* Hieroglyph.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D83457131AFEE44E0070616A /* Roxy-iOS */ = {
+		D83457131AFEE44E0070616A /* Hieroglyph-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D834572B1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "Roxy-iOS" */;
+			buildConfigurationList = D834572B1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "Hieroglyph-iOS" */;
 			buildPhases = (
 				D834570F1AFEE44E0070616A /* Sources */,
 				D83457101AFEE44E0070616A /* Frameworks */,
@@ -504,14 +504,14 @@
 			);
 			dependencies = (
 			);
-			name = "Roxy-iOS";
+			name = "Hieroglyph-iOS";
 			productName = "Rex-iOS";
-			productReference = D86E77AB1AFEE646004BF23D /* Roxy.framework */;
+			productReference = D86E77AB1AFEE646004BF23D /* Hieroglyph.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D834571D1AFEE44E0070616A /* RoxyTests-iOS */ = {
+		D834571D1AFEE44E0070616A /* HieroglyphTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D834572C1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "RoxyTests-iOS" */;
+			buildConfigurationList = D834572C1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "HieroglyphTests-iOS" */;
 			buildPhases = (
 				D834571A1AFEE44E0070616A /* Sources */,
 				D834571B1AFEE44E0070616A /* Frameworks */,
@@ -523,14 +523,14 @@
 			dependencies = (
 				D83457211AFEE44E0070616A /* PBXTargetDependency */,
 			);
-			name = "RoxyTests-iOS";
+			name = "HieroglyphTests-iOS";
 			productName = "Rex-iOSTests";
-			productReference = D86E77AC1AFEE646004BF23D /* Roxy.xctest */;
+			productReference = D86E77AC1AFEE646004BF23D /* Hieroglyph.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D8715D931C210F97005F4191 /* Roxy-watchOS */ = {
+		D8715D931C210F97005F4191 /* Hieroglyph-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8715D9B1C210F97005F4191 /* Build configuration list for PBXNativeTarget "Roxy-watchOS" */;
+			buildConfigurationList = D8715D9B1C210F97005F4191 /* Build configuration list for PBXNativeTarget "Hieroglyph-watchOS" */;
 			buildPhases = (
 				D8715D8F1C210F97005F4191 /* Sources */,
 				D8715D901C210F97005F4191 /* Frameworks */,
@@ -541,14 +541,14 @@
 			);
 			dependencies = (
 			);
-			name = "Roxy-watchOS";
+			name = "Hieroglyph-watchOS";
 			productName = Rex;
-			productReference = D8715D941C210F97005F4191 /* Roxy.framework */;
+			productReference = D8715D941C210F97005F4191 /* Hieroglyph.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8715DAF1C21123E005F4191 /* Roxy-tvOS */ = {
+		D8715DAF1C21123E005F4191 /* Hieroglyph-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8715DB51C21123E005F4191 /* Build configuration list for PBXNativeTarget "Roxy-tvOS" */;
+			buildConfigurationList = D8715DB51C21123E005F4191 /* Build configuration list for PBXNativeTarget "Hieroglyph-tvOS" */;
 			buildPhases = (
 				D8715DAB1C21123E005F4191 /* Sources */,
 				D8715DAC1C21123E005F4191 /* Frameworks */,
@@ -559,14 +559,14 @@
 			);
 			dependencies = (
 			);
-			name = "Roxy-tvOS";
+			name = "Hieroglyph-tvOS";
 			productName = Rex;
-			productReference = D8715DB01C21123E005F4191 /* Roxy.framework */;
+			productReference = D8715DB01C21123E005F4191 /* Hieroglyph.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8715DD01C21160A005F4191 /* RoxyTests-tvOS */ = {
+		D8715DD01C21160A005F4191 /* HieroglyphTests-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8715DD91C21160A005F4191 /* Build configuration list for PBXNativeTarget "RoxyTests-tvOS" */;
+			buildConfigurationList = D8715DD91C21160A005F4191 /* Build configuration list for PBXNativeTarget "HieroglyphTests-tvOS" */;
 			buildPhases = (
 				D8715DCD1C21160A005F4191 /* Sources */,
 				D8715DCE1C21160A005F4191 /* Frameworks */,
@@ -578,9 +578,9 @@
 			dependencies = (
 				D8715DD81C21160A005F4191 /* PBXTargetDependency */,
 			);
-			name = "RoxyTests-tvOS";
+			name = "HieroglyphTests-tvOS";
 			productName = RexTests;
-			productReference = D8715DD11C21160A005F4191 /* Roxy.xctest */;
+			productReference = D8715DD11C21160A005F4191 /* Hieroglyph.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -616,7 +616,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8003E881AFEC3D400D7D3C5 /* Build configuration list for PBXProject "Roxy" */;
+			buildConfigurationList = D8003E881AFEC3D400D7D3C5 /* Build configuration list for PBXProject "Hieroglyph" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -628,13 +628,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8003E8D1AFEC3D400D7D3C5 /* Roxy-Mac */,
-				D8003E981AFEC3D400D7D3C5 /* RoxyTests-Mac */,
-				D83457131AFEE44E0070616A /* Roxy-iOS */,
-				D834571D1AFEE44E0070616A /* RoxyTests-iOS */,
-				D8715DAF1C21123E005F4191 /* Roxy-tvOS */,
-				D8715DD01C21160A005F4191 /* RoxyTests-tvOS */,
-				D8715D931C210F97005F4191 /* Roxy-watchOS */,
+				D8003E8D1AFEC3D400D7D3C5 /* Hieroglyph-Mac */,
+				D8003E981AFEC3D400D7D3C5 /* HieroglyphTests-Mac */,
+				D83457131AFEE44E0070616A /* Hieroglyph-iOS */,
+				D834571D1AFEE44E0070616A /* HieroglyphTests-iOS */,
+				D8715DAF1C21123E005F4191 /* Hieroglyph-tvOS */,
+				D8715DD01C21160A005F4191 /* HieroglyphTests-tvOS */,
+				D8715D931C210F97005F4191 /* Hieroglyph-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -804,17 +804,17 @@
 /* Begin PBXTargetDependency section */
 		D8003E9C1AFEC3D400D7D3C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8003E8D1AFEC3D400D7D3C5 /* Roxy-Mac */;
+			target = D8003E8D1AFEC3D400D7D3C5 /* Hieroglyph-Mac */;
 			targetProxy = D8003E9B1AFEC3D400D7D3C5 /* PBXContainerItemProxy */;
 		};
 		D83457211AFEE44E0070616A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D83457131AFEE44E0070616A /* Roxy-iOS */;
+			target = D83457131AFEE44E0070616A /* Hieroglyph-iOS */;
 			targetProxy = D83457201AFEE44E0070616A /* PBXContainerItemProxy */;
 		};
 		D8715DD81C21160A005F4191 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8715DAF1C21123E005F4191 /* Roxy-tvOS */;
+			target = D8715DAF1C21123E005F4191 /* Hieroglyph-tvOS */;
 			targetProxy = D8715DD71C21160A005F4191 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -927,7 +927,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = d29.oss.rac.rexi;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -955,7 +955,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = d29.oss.rac.rexi;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -978,7 +978,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neilpa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 			};
 			name = Debug;
 		};
@@ -996,7 +996,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neilpa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 			};
 			name = Release;
 		};
@@ -1025,7 +1025,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neilpa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1052,7 +1052,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neilpa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1079,7 +1079,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neilpa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1098,7 +1098,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.neilpa.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1120,7 +1120,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.Rex;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1144,7 +1144,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.Rex;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -1169,7 +1169,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.Rex;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1193,7 +1193,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.Rex;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1212,7 +1212,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.RexTests;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1228,7 +1228,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.neilpa.RexTests;
-				PRODUCT_NAME = Roxy;
+				PRODUCT_NAME = Hieroglyph;
 				SDKROOT = appletvos;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -1238,7 +1238,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8003E881AFEC3D400D7D3C5 /* Build configuration list for PBXProject "Roxy" */ = {
+		D8003E881AFEC3D400D7D3C5 /* Build configuration list for PBXProject "Hieroglyph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8003EA21AFEC3D400D7D3C5 /* Debug */,
@@ -1247,7 +1247,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8003EA41AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "Roxy-Mac" */ = {
+		D8003EA41AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "Hieroglyph-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8003EA51AFEC3D400D7D3C5 /* Debug */,
@@ -1256,7 +1256,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8003EA71AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "RoxyTests-Mac" */ = {
+		D8003EA71AFEC3D400D7D3C5 /* Build configuration list for PBXNativeTarget "HieroglyphTests-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8003EA81AFEC3D400D7D3C5 /* Debug */,
@@ -1265,7 +1265,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D834572B1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "Roxy-iOS" */ = {
+		D834572B1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "Hieroglyph-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D83457271AFEE44E0070616A /* Debug */,
@@ -1274,7 +1274,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D834572C1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "RoxyTests-iOS" */ = {
+		D834572C1AFEE44E0070616A /* Build configuration list for PBXNativeTarget "HieroglyphTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D83457291AFEE44E0070616A /* Debug */,
@@ -1283,7 +1283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8715D9B1C210F97005F4191 /* Build configuration list for PBXNativeTarget "Roxy-watchOS" */ = {
+		D8715D9B1C210F97005F4191 /* Build configuration list for PBXNativeTarget "Hieroglyph-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8715D991C210F97005F4191 /* Debug */,
@@ -1292,7 +1292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8715DB51C21123E005F4191 /* Build configuration list for PBXNativeTarget "Roxy-tvOS" */ = {
+		D8715DB51C21123E005F4191 /* Build configuration list for PBXNativeTarget "Hieroglyph-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8715DB61C21123E005F4191 /* Debug */,
@@ -1301,7 +1301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8715DD91C21160A005F4191 /* Build configuration list for PBXNativeTarget "RoxyTests-tvOS" */ = {
+		D8715DD91C21160A005F4191 /* Build configuration list for PBXNativeTarget "HieroglyphTests-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8715DDA1C21160A005F4191 /* Debug */,

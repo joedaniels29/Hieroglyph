@@ -15,10 +15,10 @@
             hideIssues = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-               BuildableName = "Roxy.framework"
-               BlueprintName = "Roxy-Mac"
-               ReferencedContainer = "container:Roxy.xcodeproj">
+               BlueprintIdentifier = "D8715D931C210F97005F4191"
+               BuildableName = "Hieroglyph.framework"
+               BlueprintName = "Hieroglyph-watchOS"
+               ReferencedContainer = "container:Hieroglyph.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,26 +29,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8003E981AFEC3D400D7D3C5"
-               BuildableName = "Roxy.xctest"
-               BlueprintName = "RoxyTests-Mac"
-               ReferencedContainer = "container:Roxy.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-            BuildableName = "Roxy.framework"
-            BlueprintName = "Roxy-Mac"
-            ReferencedContainer = "container:Roxy.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,10 +46,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-            BuildableName = "Roxy.framework"
-            BlueprintName = "Roxy-Mac"
-            ReferencedContainer = "container:Roxy.xcodeproj">
+            BlueprintIdentifier = "D8715D931C210F97005F4191"
+            BuildableName = "Hieroglyph.framework"
+            BlueprintName = "Hieroglyph-watchOS"
+            ReferencedContainer = "container:Hieroglyph.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -83,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8003E8D1AFEC3D400D7D3C5"
-            BuildableName = "Roxy.framework"
-            BlueprintName = "Roxy-Mac"
-            ReferencedContainer = "container:Roxy.xcodeproj">
+            BlueprintIdentifier = "D8715D931C210F97005F4191"
+            BuildableName = "Hieroglyph.framework"
+            BlueprintName = "Hieroglyph-watchOS"
+            ReferencedContainer = "container:Hieroglyph.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

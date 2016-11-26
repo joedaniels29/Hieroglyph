@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Roxy.xcodeproj">
+      location = "group:/Users/Joe/Projects/Mine/Hieroglyph/Hieroglyph.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:README.md">
